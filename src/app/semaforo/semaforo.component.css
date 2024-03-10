@@ -1,0 +1,112 @@
+.circulo-verde{
+    width:100px;
+    height:100px;
+    border-radius: 100%;
+    margin: 10px;
+    border:4px solid yellowgreen;
+    background-color: green;
+}
+.circulo-amarillo{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin: 10px;
+    border:4px solid yellowgreen;
+    background-color: yellow;
+}
+.circulo-rojo{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin: 10px;
+    border:4px solid yellowgreen;
+    background-color: red;
+}
+.circulo-azul{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin: 10px;
+    border:4px solid yellowgreen;
+    background-color: blue;
+}
+.circulo-rosa{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin: 10px;
+    border:4px solid yellowgreen;
+    background-color: rgb(247, 12, 157);
+}
+.circulo-wheat{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin: 10px;
+    border:4px solid yellowgreen;
+    background-color: wheat;
+}
+.circulo-aquamarine{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin: 10px;
+    border:4px solid yellowgreen;
+    background-color: aquamarine;
+}
+.circulo-tomato{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin: 10px;
+    border:4px solid yellowgreen;
+    background-color: tomato;
+}
+.circulo-sienna{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin: 10px;
+    border:4px solid yellowgreen;
+    background-color: sienna;
+}
+.circulo-corn{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin: 10px;
+    border:4px solid yellowgreen;
+    background-color: cornflowerblue;
+}
+.circulo-medium{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin: 10px;
+    border:4px solid yellowgreen;
+    background-color: mediumpurple;
+}
+.circulo-lavender{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin: 10px;
+    border:4px solid yellowgreen;
+    background-color: lavender;
+}
+.blanco{
+    background-color:white;
+}
+.gris{
+    background-color: gainsboro;
+    width:fit-content;
+    border:4px solid blanchedalmond;
+    float: left;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+.Cuenta-atras{
+    color:orange;
+}

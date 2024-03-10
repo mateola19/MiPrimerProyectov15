@@ -1,0 +1,25 @@
+.contenedor-personaje{
+    background-color: blueviolet;
+}
+.contenedor-personaje{
+    float: left;
+    display: flex;
+    flex-direction:column;
+    padding: 10px;
+    
+}
+.foto{
+    height: 100px;
+    width: 1000px;
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+    background-color: chartreuse;
+}
+.datos-basicos{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    background-color: goldenrod;
+}

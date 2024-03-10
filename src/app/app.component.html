@@ -1,0 +1,21 @@
+<!-- <app-semaforo></app-semaforo>
+<app-lista></app-lista>
+<a routerLink="piedra-pal-tijra">adios</a>
+<mat-toolbar color="primary">
+    <div class="opcion" routerLink="/piedra-pal-tijra">Piedra Papel Tijera</div>
+    <div class="opcion" routerLink="/lista-tarjetas">Lista tarjetas</div>
+</mat-toolbar> 
+<router-outlet></router-outlet>
+<app-piedra-pal-tijra></app-piedra-pal-tijra>
+<app-tic-tac-toe></app-tic-tac-toe>-->
+<mat-button-toggle-group  [value]="juegoSeleccionado" name="fontStyle" aria-label="Font Style">
+    <mat-button-toggle value="piedra-pal-tijra">Piedra Papel o Tijera</mat-button-toggle>
+    <mat-button-toggle value="app-tic-tac-toe">Tic Tac Toe</mat-button-toggle>
+    <mat-button-toggle value="ahorcao">Ahorcado</mat-button-toggle>
+  </mat-button-toggle-group>
+  <span>{{juegoSeleccionado}}</span>
+  <router-outlet></router-outlet>
+  <div *ngIf="juegoSeleccionado=='piedra-pal-tijra'; else elseTicTacToe">
+    <app-piedra-pal-tijra ></app-piedra-pal-tijra>
+  </div>
+<ng-template #elseTicTacToe><app-tic-tac-toe></app-tic-tac-toe></ng-template>

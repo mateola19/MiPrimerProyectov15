@@ -1,0 +1,15 @@
+
+<div class="contenedor-componente">
+    <div *ngFor="let personaje of listaDePersonajes" class="contenedor-personaje">
+<img class ="foto" [src] ="personaje.imagen">
+<div class="datos">
+    <div class="datos-basicos">
+<span><b>Nombre:</b><br>{{personaje.nombre}}</span>
+<span><b>Edad:</b><br>{{personaje.edad}}</span>
+</div>
+<span><b>Descripcion</b><br>{{personaje.descripcion}}</span>
+</div>
+</div>
+</div>
+
+
